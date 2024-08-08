@@ -6,7 +6,7 @@ interface Props {
 
 export function Container({ children }: Props) {
   return (
-    <div className="p-8 rounded bg-black bg-opacity-40">
+    <div className="p-8 rounded-lg bg-black bg-opacity-40">
       {children}
     </div>
   );
