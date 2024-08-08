@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-image: linear-gradient(darkblue, black);
+  background-image: linear-gradient(rgb(29, 15, 148), rgb(36, 36, 36));
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
