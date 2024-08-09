@@ -1,9 +1,13 @@
 {
   "characters": [
     {
-      "id": "33d7",
-      "name": "Monteiro 1",
-      "classId": "2"
+      "id": "2208",
+      "name": "Monteiro",
+      "classId": 1,
+      "level": 1,
+      "hp": 100,
+      "sp": 100,
+      "st": 100
     }
   ]
 }

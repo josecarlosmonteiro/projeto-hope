@@ -1,8 +1,9 @@
-export interface NewCharacterBody {
+export interface Character {
+  id: string;
   name: string;
   classId: number;
-}
-
-export interface Character extends NewCharacterBody {
-  id: string;
+  level: number;
+  hp: number;
+  sp: number;
+  st: number;
 }
