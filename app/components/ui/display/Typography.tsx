@@ -14,7 +14,7 @@ export function Typography({
   const variationStyle: Record<TVariation, string> = {
     body: '',
     title: 'text-3xl',
-    subtitle: 'text-xl',
+    subtitle: 'text-xl font-light',
     footer: 'text-xs',
   }
 

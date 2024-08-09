@@ -19,6 +19,6 @@ export function Row({
   const gapStyle = gap[gapVariation];
 
   return (
-    <div className={`flex ${justifyStyle} ${alignStyle} ${gapStyle} ${className}`} {...rest} />
+    <div className={`w-full flex ${justifyStyle} ${alignStyle} ${gapStyle} ${className}`} {...rest} />
   );
 }

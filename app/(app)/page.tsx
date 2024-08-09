@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../components/ui/display/Button";
 import { Typography } from "../components/ui/display/Typography";
 import { Center } from "../components/ui/layout/Center"
@@ -10,16 +11,24 @@ export default function Home() {
     <main className="h-screen">
       <Center>
         <Container>
-          <Column align="center">
-            <Typography variation="title" className="font-[Papyrus]">
-              Projeto HOPE
-            </Typography>
+          <Column gap="lg" align="center">
+            <div>
+              <Typography variation="title" className="font-[Papyrus]">
+                Projeto HOPE
+              </Typography>
 
-            <Divider />
+              <Divider />
+            </div>
 
-            <Button disabled>Começar</Button>
-            <Button disabled>Instruções</Button>
-            <Button disabled>Sobre</Button>
+            <Column align="center">
+              <Button disabled>
+                <Link href={'/personagem/novo'}>
+                  Começar
+                </Link>
+              </Button>
+              <Button disabled>Instruções</Button>
+              <Button disabled>Sobre</Button>
+            </Column>
           </Column>
         </Container>
       </Center>
